@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+#Authentication
+gem 'devise'
+#Authorization
+gem 'cancancan'
+
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
