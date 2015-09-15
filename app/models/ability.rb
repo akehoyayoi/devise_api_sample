@@ -2,7 +2,7 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
-    can :managem, Note, user: user if user
+    can :manage, Note, user: user if user
 
     # Define abilities for the passed in user here. For example:
     #
